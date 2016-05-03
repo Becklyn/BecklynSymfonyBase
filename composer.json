@@ -1,0 +1,13 @@
+{
+    "name": "becklyn/symfony-base",
+    "description": "Base classes and functionality for the Becklyn Symfony Edition",
+    "keywords":    ["symfony"],
+    "license":     "BSD-3-Clause",
+    "type":        "library",
+    "autoload": {
+        "psr-4": { "BecklynSymfonyBase": "src/" }
+    },
+    "require": {
+        "php": "^5.5|7.0"
+    }
+}
