@@ -5,7 +5,7 @@
     "license":     "BSD-3-Clause",
     "type":        "library",
     "autoload": {
-        "classmap": [ "src/" ]
+        "psr-4": { "BecklynSymfonyBase\\": "src/" }
     },
     "require": {
         "php": "^5.5|^7.0"
